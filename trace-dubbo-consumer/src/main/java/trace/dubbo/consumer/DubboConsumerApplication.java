@@ -9,7 +9,7 @@ import org.springframework.context.annotation.ImportResource;
 @SpringBootApplication
 @EnableTraceAutoConfigurationProperties
 @ImportResource("classpath:applicationContext-dubbo-consumer.xml")
-@ComponentScan("com.jim")
+@ComponentScan("trace.dubbo")
 public class DubboConsumerApplication {
 
 	public static void main(String[] args) {
