@@ -1,2 +1,2 @@
-traceProviderFilter=TraceProviderFilter
-traceConsumerFilter=TraceConsumerFilter
+traceProviderFilter=trace.dubbo.core.filter.TraceProviderFilter
+traceConsumerFilter=trace.dubbo.core.filter.TraceConsumerFilter
