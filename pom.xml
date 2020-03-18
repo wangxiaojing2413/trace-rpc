@@ -9,10 +9,10 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>jim-framework-dubbo-core</module>
-        <module>jim-framework-dubbo-provider</module>
-        <module>jim-framework-dubbo-provider2</module>
-        <module>jim-framework-dubbo-consumer</module>
+        <module>trace-dubbo-core</module>
+        <module>trace-dubbo-provider</module>
+        <module>trace-dubbo-provider2</module>
+        <module>trace-dubbo-consumer</module>
     </modules>
 
     <parent>
