@@ -14,7 +14,7 @@ import java.util.concurrent.CountDownLatch;
 
 @SpringBootApplication
 @EnableTraceAutoConfigurationProperties
-@ComponentScan(basePackages = {"com.jim.framework.dubbo.core"})
+@ComponentScan(basePackages = {"trace.dubbo.core"})
 @ImportResource({"classpath:applicationContext-dubbo-consumer.xml","classpath:applicationContext-dubbo-provider.xml"})
 public class DubboProviderApplication {
 
